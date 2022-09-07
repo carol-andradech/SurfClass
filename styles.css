@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url("img/fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.head {
+  background-color: #125266;
+  height: 128px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 64px;
+}
+
+.left img {
+  padding-top: 64px;
+  padding-left: 64px;
+}
+
+.left h1 {
+  padding-left: 64px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 64px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 30px;
+  background-color: #092933;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 400;
+  font-size: 20px;
+}
+
+ul li a:hover {
+  color: #092933;
+  text-decoration: none;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container p {
+  background-color: #092933;
+  padding: 40px;
+  border-radius: 25px;
+  width: 576px;
+  margin-bottom: 200px;
+  border: solid #d5f5ff 5px;
+  opacity: 0.9;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
+.rr {
+  padding-left: 256px;
+}
